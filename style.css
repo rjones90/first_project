@@ -102,6 +102,30 @@
 .info {
     max-width: 300px;
 }
+.third_part {
+    display: flex;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.quote {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 400px;
+    font-weight: 36px lighter;
+    font-style: italic;
+    padding: 18px;
+}
+.credit {
+    display: flex;
+    font-weight: bolder;
+    width: 400px;
+    justify-content: flex-end;
+ 
+    }
 img {
     height: 200px;
     width: 200px;
