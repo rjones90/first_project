@@ -11,6 +11,7 @@
     background-color:  #1F2937;
     justify-content: space-between;
     padding: 9px;
+ 
 }
 .header_logo {
     display: flex;
@@ -48,7 +49,7 @@
     margin: auto;  
     margin-left: 150px; 
     flex-direction: column;
-    max-width: 500px;
+    max-width: 700px;
 }
 .header_main_text {
     color: #F9FAF8;
@@ -81,6 +82,23 @@
     padding: 6px;
     height: 50px;
     width: 85px;
+}
+.second_part {
+    text-align: center;
+    padding: 10px;
+}
+.second_title{
+    color: #1f2937;
+    font-weight: bolder;
+    font-size: 36px;
+}
+.second_container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.info {
+    max-width: 300px;
 }
 img {
     height: 200px;
