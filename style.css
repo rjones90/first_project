@@ -82,8 +82,10 @@
     background-color: blue;
     color: white;
     padding: 6px;
-    height: 50px;
-    width: 85px;
+    height: 40px;
+    width: 105px;
+    border-radius: 10px;
+    font-weight: bold;
 }
 .second_part {
     text-align: center;
@@ -125,6 +127,34 @@
     width: 400px;
     justify-content: flex-end;
  
+    }
+    .fourth_part {
+        display: flex;
+        align-items: center;
+        height: 100px;
+        max-width: 1400px;
+        background-color: #3882f6;
+        color: #e5e7eb;
+        margin: 3%;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding: 16px;
+    }
+    .fourth_header {
+        display: flex;
+        align-items: center;
+        font-size: 24px;
+        font-weight: bolder;
+        }
+
+.second_button {
+    margin: 0 auto;
+    margin-left: 5%;
+    margin-right: 15%;
+    background-color: #3882f6;
+    border-radius: 5px;
+    border: 2px solid white;
+    color: #e5e7eb;
     }
 img {
     height: 200px;
